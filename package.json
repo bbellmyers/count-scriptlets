@@ -1,0 +1,21 @@
+{
+  "name": "count-scriptlets",
+  "version": "1.0.0",
+  "bin": "./lib/index.js",
+  "description": "count lines of scriptlet code in JSPs",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fs-extra": "5.0.0",
+    "glob": "^7.1.2",
+    "path": "^0.12.7",
+    "yargs": "^11.0.0"
+  },
+  "author": "Braden DeMain <bdemain@ptc.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-remove-empty-lines": "^0.1.0"
+  }
+}
