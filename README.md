@@ -1,6 +1,10 @@
 # count-scriptlets
 A Node.js Utility that counts the lines of scriptlet code in JSPs.
 
+This can be used as an analysis tool on large JSP codebases to find the largest scriptlets, to help focus refactoring efforts.
+
+A scriptlet is defined narrowly to only include lines bounded by <% %>.  JSP expressions <%= %> are not counted as scriptlets, nor are JSP comments <%-- --%>.  All other JSP syntax is also permitted and not included in the scriptlet count.
+
 Install globally:
 ```
 npm install -g
