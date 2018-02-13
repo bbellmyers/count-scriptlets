@@ -18,3 +18,13 @@ Output is compatible with the CSV format, so you can capture to a file to import
 ```
 count-scriptlets > my-results.csv
 ```
+
+Sample output:
+```
+FileName                                                              , original , scriptlet , percent
+xml\SystemProperty.jsp                                                ,       52 ,        29 , 56%
+xml\ViewXml.jsp                                                       ,      209 ,        54 , 26%
+xml\XmlController.jsp                                                 ,      119 ,        82 , 69%
+                                                                      ,--------- , --------- , -------
+TOTAL                                                                 ,      380 ,       165 , 43%
+```
